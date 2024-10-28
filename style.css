@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.quadrato{
+  width: 1200px;
+  height: 800px;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  padding: 100px;
+  border-radius: 7px;
+}
+/* <!-- parte sopra della paggina --> */
+header{
+  text-align: center;
+}
+img{
+  width: 300px;
+}
+h1{
+  font-size: 50px;
+  color: #06f106;
+}
+/* <!-- Buttoni --> */
+.button{
+display: block;
+background-color: #06f106;
+text-align: center;
+padding: 7px;
+}
+/* <!-- informazioni --> */
+
+.testo1, .testo2, .testo3{
+  font-size: 30px;
+  color: white;
+  padding-top: 15px
+}
+h6{
+  color: lightgrey;
+}
+.barra1{
+  width: 400px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 5px;
+}
+.barra2{
+  width: 700px;
+  height: 20px;
+  background-color: green;
+  border-radius: 5px;
+}
+.barra3{
+  width: 200px;
+  height: 20px;
+  background-color: red;
+  border-radius: 5px;
+}
